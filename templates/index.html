@@ -1,0 +1,45 @@
+{% block content %}
+{% include 'header.html' %}
+{% load static %}
+    <!-- slider section -->
+    <section class="slider_section long_section">
+      <div id="customCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="detail-box">
+                    <h5>
+                      Anomaly detection is a technique used in data mining and machine learning to identify patterns or instances that deviate significantly from the norm within a dataset. These anomalies, also known as outliers, can represent events such as errors, defects, fraud, or unusual behavior that may require further investigation.
+                    </h5>
+                   
+                    <div class="btn-box">
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="img-box">
+                    <img src="{% static 'images/123.jpg' %}" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+         
+        </div>
+   
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+ 
+  {% include 'footer.html' %}
+        {% endblock %}
+        
+
+
+ 

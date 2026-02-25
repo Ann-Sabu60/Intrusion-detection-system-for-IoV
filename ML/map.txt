@@ -1,0 +1,1 @@
+{'Label': {'R': 0, 'DoS': 1, 'Fuzzy': 2, 'RPM': 3, 'gear': 4}}

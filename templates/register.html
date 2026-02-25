@@ -1,0 +1,48 @@
+{% include 'header.html' %}
+
+<br> 
+<br>
+<br>
+<center>
+  <section class="contact_section  long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container">
+            <div class="heading_container">
+              <h2>
+                Register
+              </h2>
+            </div>
+            <form action="addregister" method="POST">
+              {% csrf_token %}
+              <div>
+                <input type="text" name="Name" placeholder="Name" />
+              </div>
+              <div>
+                <input type="text" name="Email" placeholder="Email" placeholder="password" style="height: 55px;" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                                title="Please enter a valid email address" data-validation-required-message="Please enter your email" />
+              </div>
+              <div>
+                <input type="password" name="Password" placeholder="Password" required="required" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must Contain 8 characters with caps , small letters and number "  required="required" data-validation-required-message="Please enter a Password"/> 
+              </div>
+              <div>
+                <input type="number" name="Phone" placeholder="Phone" pattern="\d+" title="Must contain 10 numbers"  required="required" data-validation-required-message="Please enter your mobile number"/>
+              </div>
+              
+              
+              <div class="btn_box">
+                <button>
+                  submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+    </Center>
+      {% include 'footer.html' %}

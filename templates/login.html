@@ -1,0 +1,42 @@
+{% include 'header.html' %}
+
+<br> 
+<br>
+<br>
+<center>
+  <section class="contact_section  long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container">
+            <div class="heading_container">
+              <h2>
+             Login Us
+              </h2>
+            </div>
+            <form action="addlogin" method="POST">
+              {% csrf_token %}
+              
+              <div>
+                <input type="text" name="email" placeholder="email" />
+              </div>
+              <div>
+                <input type="password" name="password" placeholder="password" />
+              </div>
+
+              
+              <div class="btn_box">
+                <button>
+                  submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+    </Center>
+  {% include 'footer.html' %}

@@ -1,0 +1,43 @@
+{% include 'header.html' %}
+
+<br> 
+<br>
+<br>
+<center>
+  <section class="contact_section  long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container">
+            <div class="heading_container">
+              <h2>
+             Upload Us
+              </h2>
+            </div>
+            <form action="addupload" method="POST" enctype="multipart/form-data">
+              {% csrf_token %}
+              
+              
+              <div>
+                <input type="file" name="file" placeholder="image" />
+              </div>
+
+              
+              <div class="btn_box">
+                <button>
+                  submit
+                </button>
+              </div>
+            </form>
+{% if result %}
+            <h1>Result : {{result}}</h1>
+            {% endif %}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+    </Center>
+  {% include 'footer.html' %}
