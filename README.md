@@ -4,7 +4,7 @@ A TRANSFER LEARNING AND OPTIMIZED CNN BASED INTRUSION DETECTION SYSTEM FOR INTER
 The proposed IDS framework enhances cyber-attack detection in the Internet of Vehicles (IoV) by integrating Convolutional Neural Networks (CNNs),ensemble training, transfer learning, and hyper-parameter optimization (HPO). It transforms network traffic data into images for better pattern recognition and optimizes five CNN models (VGG16, VGG19, Xception, Inception, InceptionResNet) using Particle Swarm Optimization (PSO). Evaluated on Car-Hacking datasets, it achieves over 99.25% accuracy and F1-scores, outperforming existing IDS solutions. With low computational latency, it provides a robust and scalable real-time security solution for modern vehicle networks.
 
 ## FEATURES
--High Detection Accuracy
+- High Detection Accuracy
 -Dual Protection
 -Advanced Machine Learning Techniques 
 -Optimized CNN Models
