@@ -5,29 +5,29 @@ The proposed IDS framework enhances cyber-attack detection in the Internet of Ve
 
 ## FEATURES
 - High Detection Accuracy
--Dual Protection
--Advanced Machine Learning Techniques 
--Optimized CNN Models
--Efficient Data Transformation
--Ensemble Learning for Improved Performance
--Real-Time Feasibility
--Adaptive Hyper-Parameter Optimization
--Robust Against Multiple Attack Types
--Scalability and Practical Deployment
+- Dual Protection
+- Advanced Machine Learning Techniques 
+- Optimized CNN Models
+- Efficient Data Transformation
+- Ensemble Learning for Improved Performance
+- Real-Time Feasibility
+- Adaptive Hyper-Parameter Optimization
+- Robust Against Multiple Attack Types
+- Scalability and Practical Deployment
 
 ## SOFTWARE REQUIREMENTS
--Front End      :HTML, CSS, Bootstrap, JavaScript, PHP
--Back End       :Django, MySQL
--IDE            :Notepad++
+- Front End      :HTML, CSS, Bootstrap, JavaScript, PHP
+- Back End       :Django, MySQL
+- IDE            :Notepad++
 
 ## FUTURE IMPROVEMENTS
--Online Learning Capability
--Concept Drift Detection
--Lightweight Model Optimization
--Integration with Real Vehicle Networks
--Multi-Modal Data Fusion
--Cloud-Edge Hybrid Deployment
--User-Friendly Dashboard
+- Online Learning Capability
+- Concept Drift Detection
+- Lightweight Model Optimization
+- Integration with Real Vehicle Networks
+- Multi-Modal Data Fusion
+- Cloud-Edge Hybrid Deployment
+- User-Friendly Dashboard
 
 ## AUTHOR
 ANN ELSA SABU
